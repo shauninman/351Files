@@ -1,1 +1,3 @@
-351Files.geany
+/351Files
+*.o
+.DS_Store
