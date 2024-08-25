@@ -14,7 +14,7 @@ RES_PATH ?= "./res"
 ifeq ($(DEVICE),PC)
 	CC = $(CXX)
 	SDL2_CONFIG = sdl2-config
-	START_PATH = $(PWD)
+	# START_PATH = $(PWD)
 endif
 
 SRC = $(wildcard src/*.cpp)
